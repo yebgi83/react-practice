@@ -14,3 +14,10 @@
 
 3. 20190731 연습에서는 UIInitialize 하는 부분을 JavaScript의 Object 형식으로 분리<br>
 4. 20190801 연습에서는 내부 class로 만들어서 가져오는 식으로 시도해봄.<br>
+
+# InputText 관련
+
+아래의 포스트를 참조하여 공통으로 갖는 함수나 상태를 분리함
+https://link.medium.com/dEhMG5N1K8
+
+
