@@ -10,7 +10,7 @@
 * constructor(props), componentDidMount(), render() 이외에 나머지 함수들은 공통으로 특정 변수를 공유하고, 서로 간의 함수가 실행되는 부분은 "UI 구성을 초기화" 하는 공통의 목표를 가지고
 있는 것으로 보임 => UIInitializer 라는 요소로 분리
 * 나머지는 React 컴포넌트에서 Render를 하기 위함이므로, Renderer 라는 요소로 분리
-* 그리고 React 컴포넌트를 export 하도록 처리
+* 그리고 React 컴포넌트를 export 하도록 처리 (UIInitialize 하는 부분은 소스 내부에서만 사용할 수 있도록 숨김)
 
 3. 20190731 연습에서는 UIInitialize 하는 부분을 JavaScript의 Object 형식으로 분리<br>
 4. 20190801 연습에서는 내부 class로 만들어서 가져오는 식으로 시도해봄.<br>
