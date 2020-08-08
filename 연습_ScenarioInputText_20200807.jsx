@@ -10,7 +10,6 @@ class Renderer extends Component {
         super(props);
 
         this.state = {
-            recommends: [],
             context: null
         };
 
